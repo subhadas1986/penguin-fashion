@@ -1,0 +1,223 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Navigation Part Start */
+.header{
+    background-color: #ffeaa7;
+}
+.logo-img img{
+    width: 40%;
+}
+.navigation{
+    display: flex;
+    padding: 15px 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-items{
+    display: flex;
+    padding: 15px 0;
+}
+.menu-items li{
+    list-style: none;
+    margin-right: 20px;
+}
+.menu-items li a{
+    text-decoration: none;
+    color: #192a56;
+    font-size: 20px;
+}
+.menu-items li a:hover{
+   color: tomato;
+}
+/* Navigation Part Ends */
+
+/* Banner Part Start */
+.banner-section{
+    background-color: #ffeaa7;
+}
+.left-part{
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 4%;
+}
+.right-part{
+    width: 40%;
+    margin-right: 6%;
+    margin-left: 4%;
+}
+.left-img img{
+    width: 100%;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: -40px;
+}
+
+.text-part h1{
+    font-size: 70px;
+    color: #192a56;
+}
+.text-part p{
+    font-size: 20px;
+    color: #192a56;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+.tomato-color{
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #341f97;
+    padding: 20px 38px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.link-button:hover{
+    background-color: tomato;
+}
+.fa-solid{
+    margin-right: 15px;
+    font-size: 20px;
+}
+/* Banner Part Start */
+/* Casual Part Start */
+.shoes-text{
+    text-align: left;
+    font-size: 40px;
+    color: #192a56;
+}
+.card-img img{
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.card{
+    box-shadow: 10px 10px 40px grey;
+    width: 25%;
+    /* height: 25%; */
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.card-text h4{
+    font-size: 30px;
+    color: #192a56;
+}
+.card-text p{
+    font-size: 20px;
+}
+.card-text h5{
+    font-size: 32px;
+    
+}
+.card-text h4, p{
+   margin-bottom: -10px;
+    
+}
+.casual-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.amount-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button-card{
+    text-decoration: none;
+    background-color: #341f97;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.no-bg img{
+    background-color: white;
+    box-shadow: none;
+    border-radius: none;
+}
+.casual-shoes{
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+.left-side{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 10px rgb(214, 226, 231);
+    /* background-color: rgb(214, 226, 231); */
+    
+}
+.icon-img img{
+    width: 100px;
+    margin-right: 30px;
+}
+.one-third{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    text-align: left;
+    /* margin-bottom: 10px; */
+}
+#one{
+    box-shadow: 5px 5px 20px grey;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+#two{
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#three{
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;  
+    padding: 10px;
+}
+.left-side h4{
+    font-size: 26px;
+    color: #192a56; 
+    margin-top: -10px;
+}
+.left-side p{
+    font-size: 20px;
+    margin-top: -30px;
+   
+}
+.right-side{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.subscribe-img img{
+    width: 100%;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+/* Footer Area */
+.footer-area p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.footer-area{
+    background-color: #192a56;
+    padding: 50px 0;
+}
